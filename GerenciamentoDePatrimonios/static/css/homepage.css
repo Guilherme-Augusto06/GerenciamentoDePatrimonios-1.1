@@ -48,15 +48,7 @@
     transform: scale(1.1);
 }
 
-.mainWhite {
-    background-color: #ffffff;
-    color: #000000;
-}
 
-.mainBlack {
-    background-color: #000000;
-    color: #ffffff;
-}
 
 .titleHomepage {
     font-size: 100px;
