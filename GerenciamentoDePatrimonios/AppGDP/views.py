@@ -13,3 +13,6 @@ def login(request):
 
 def cadastro(request):
     return render(request, 'cadastro.html')
+
+def profile(request):
+    return render(request, 'profile.html')
