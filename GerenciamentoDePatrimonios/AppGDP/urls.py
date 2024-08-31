@@ -6,4 +6,5 @@ urlpatterns = [
         path('login', views.login, name="login"),           # Inclui as urls do app blog
         path('cadastro', views.cadastro, name="cadastro"),   # Inclui as urls do app blog
         path('profile', views.profile, name="profile"),       # Inclui as urls do app blog
+        path('faq', views.faq, name="faq"),                 # Inclui as urls do app blog
 ]

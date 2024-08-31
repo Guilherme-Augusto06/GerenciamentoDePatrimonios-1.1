@@ -16,3 +16,6 @@ def cadastro(request):
 
 def profile(request):
     return render(request, 'profile.html')
+
+def faq(request):
+    return render(request, 'faq.html')
