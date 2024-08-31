@@ -1,0 +1,22 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --textBorder-color: #000000;
+    --color-logo-gradA: black;
+    --color-logo-gradB: #b01717;
+}
+
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --textBorder-color: #b01717;
+    --color-logo-gradA: white;
+    --color-logo-gradB: #b01717;
+}
+
+.main {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    
+}
+
