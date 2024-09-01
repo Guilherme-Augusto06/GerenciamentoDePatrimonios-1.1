@@ -19,3 +19,6 @@ def profile(request):
 
 def faq(request):
     return render(request, 'faq.html')
+
+def welcomeHomepage(request):
+    return render(request, 'welcomeHomepage.html')
